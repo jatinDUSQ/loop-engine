@@ -1,0 +1,18 @@
+{
+  "voice_description": "",
+  "global_speed": 1.6,
+  "continuity": false,
+  "genre": "sleepcast",
+  "model": "octave-2",
+  "pronunciation_glossary": [],
+  "utterances": [
+    {
+      "text": "Part 1. Cut. Welcome to the garden tour, and today Dr. Nguyen shows us 3 rare plants that grow in many wildly different climates around the whole entire world.",
+      "speed": 1.0
+    },
+    {
+      "text": "NASA studied the eucalyptus at 3:45 every day, spending $5 <break time=\"1s\"/> per sample near the lead pipe.",
+      "trailing_silence": 0.2
+    }
+  ]
+}

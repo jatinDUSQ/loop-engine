@@ -1,0 +1,32 @@
+{
+  "voice_description": "Warm, measured documentary narrator; calm and curious, gentle authority.",
+  "global_speed": 1.0,
+  "continuity": true,
+  "genre": "documentary",
+  "model": "octave-2",
+  "pronunciation_glossary": [
+    { "original": "Nguyen", "respelling": "NWIN", "reason": "surname, non-obvious reading" },
+    { "original": "tuberose", "respelling": "TOOB-rohz", "reason": "botanical term" },
+    { "original": "ranunculus", "respelling": "ruh-NUNK-yoo-luss", "reason": "botanical term" },
+    { "original": "eucalyptus", "respelling": "yoo-kuh-LIP-tuss", "reason": "botanical term" },
+    { "original": "NASA", "respelling": "NAH-suh", "reason": "read as a word" }
+  ],
+  "utterances": [
+    {
+      "text": "Welcome to the garden tour.\nToday, Doctor NWIN shows us three rare plants.",
+      "speed": 1.0,
+      "trailing_silence": 0.8,
+      "description": "warm, inviting open"
+    },
+    {
+      "text": "The TOOB-rohz blooms in a nineteen-nineties style,\nand the ruh-NUNK-yoo-luss needs twelve percent more light.",
+      "speed": 1.0,
+      "trailing_silence": 0.6
+    },
+    {
+      "text": "NAH-suh studied the yoo-kuh-LIP-tuss at three forty-five each day,\nspending five dollars per sample.",
+      "speed": 0.98,
+      "trailing_silence": 1.0
+    }
+  ]
+}

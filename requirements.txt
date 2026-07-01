@@ -1,0 +1,7 @@
+# Required for the implemented step — the checker (`check` / `scan`):
+pydantic>=2.5
+python-dotenv>=1.0
+
+# Needed only by the planned optimize/synthesize steps (stubbed today):
+# anthropic>=0.49   # GENERATE / REVISE loop (Claude)
+# httpx>=0.27       # Hume Octave TTS HTTP calls

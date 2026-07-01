@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "loop-engine"
+version = "0.1.0"
+description = "Turn raw narration into Hume Octave TTS-friendly scripts; check scripts against the Hume-friendly checklist."
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic>=2.5",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+# Installed only when you build out the generate/synthesize steps.
+llm = ["anthropic>=0.49"]
+tts = ["httpx>=0.27"]
+
+[project.scripts]
+loop-engine = "loop_engine.cli:main"
+
+[tool.setuptools]
+packages = ["loop_engine"]

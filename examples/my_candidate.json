@@ -1,0 +1,36 @@
+{
+  "voice_description": "Soft, hushed, intimate nighttime narrator; slow and soothing, warm and unhurried.",
+  "global_speed": 0.8,
+  "continuity": true,
+  "genre": "sleepcast",
+  "model": "octave-2",
+  "pronunciation_glossary": [
+    { "original": "tuberose", "respelling": "TOOB-rohz", "reason": "botanical term, non-obvious reading" }
+  ],
+  "utterances": [
+    {
+      "text": "By the time dusk reaches the flower shop, the air is already heavy with quiet kindness waiting to be carried away.\nOutside, the street is still bright with motion, but inside the light turns tender,\nfiltered through glass, petals, and thin curtains until it feels almost breathable.\nBuckets of flowers crowd the floor in quiet abundance, each one a small constellation of color,\nheld upright by water that reflects the lamps in trembling gold lines.",
+      "speed": 0.8,
+      "trailing_silence": 3.0,
+      "description": "tender, hushed open; settle the listener into the room"
+    },
+    {
+      "text": "The air is cool and damp, layered with scents that do not compete so much as weave together,\ngreen stems freshly trimmed, faint sweetness from roses, the clean powder of lilies,\nthe peppery brightness of carnations, the honeyed duskiness of TOOB-rohz beginning to open for the night.\nEvery surface holds moisture: leaves beaded with droplets, paper sleeves darkened at the bottom,\nthe shop's tiled floor faintly slick where water has spilled and been only half wiped away.",
+      "speed": 0.8,
+      "trailing_silence": 3.5,
+      "description": "slow, sensory drift through scent and moisture"
+    },
+    {
+      "text": "A refrigerator hums softly along one wall, its glass door misted\nfrom the difference between chilled interior and the warmth of the room.",
+      "speed": 0.8,
+      "trailing_silence": 2.5,
+      "description": "quiet, low, steady"
+    },
+    {
+      "text": "It holds orchids arranged with beautiful precision, each bloom pristine, untouched by the more chaotic life outside.\nSomewhere near the counter, scissors rest in a ceramic jar,\ntheir metal blades faintly stained green, handles worn smooth by years of repetition.",
+      "speed": 0.8,
+      "trailing_silence": 4.0,
+      "description": "gentle close; let the room fall still"
+    }
+  ]
+}
